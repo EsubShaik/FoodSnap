@@ -276,7 +276,7 @@ const detectFood = async (req, res) => {
     return res.status(500).json({ message: "Internal Server Error" });
   }
 }
-const gemini_api_key =  "AIzaSyA25pfj01XNwkz3v0mBQycPT32N8tPsli0" ;
+const gemini_api_key =  process.env.GEMINI_API ;
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const googleAI = new GoogleGenerativeAI(gemini_api_key);
 const geminiConfig = {

@@ -32,7 +32,7 @@ The project has been successfully developed, and our team has worked diligently 
 
 ## License
 
-This project is licensed under the Apache License 2.0.
+This project is licensed under the Apache License 2.0 - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## 👏 Thank You!
 
